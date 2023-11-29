@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #021821;
+}
+
+li, a, button{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+header{
+    padding: 19px 63px;
+    gap: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    height: 60px;
+    margin-right: auto;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline;
+    padding: 0px 36px;
+}
+.nav_links li a{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: orange;
+}
+.cta button{
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 9px 25px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(255, 221, 0);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.home_img{
+    background-image: url('/assets/Restaurant.jpg');
+    height: 536px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    background-repeat: no-repeat;
+}
+.home_text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.home_text p, pre{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Allan';
+}
+.home_text h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family:'Inter';
+    font-size: 56px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.about{
+    color: white;
+    padding: 55px;
+    text-align: center;
+}
+.about #special{
+    font-family: 'Allan';
+    font-size: 32px;
+}
+.about #us{
+    font-family: 'Inter';
+    font-size: 44px;
+}
+.page2{
+    height: 70vh;
+    width: 100%;
+}
+.card{
+    height: 539px;
+    width: 100%;
+    display: flex;
+}
+#card1{
+    margin-left: 62px;
+    margin-right: 33px;
+    height: 539px;
+    width: 417px;
+    background-image: url('/assets/Special.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(10px);
+
+}
+#card2{
+    color: white;
+    margin-left: 33px;
+    margin-right: 33px;
+    height: 539px;
+    width: 417px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/assets/Menu.jpg');
+    filter: drop-shadow(10px);
+
+}
+#card3{
+    margin-left: 33px;
+    margin-right: 62px;
+    height: 539px;
+    width: 417px;
+    background-image: url('/assets/Map.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(10px);
+
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 30px;
+}
